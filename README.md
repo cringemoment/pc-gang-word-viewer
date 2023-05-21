@@ -1,1 +1,1 @@
-use https://github.com/Tyrrrz/DiscordChatExporter/issues
+use https://github.com/Tyrrrz/DiscordChatExporter

@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 start_date = datetime(2020, 3, 18, 3, 37)
 end_date = datetime.now()
-smoothness_factor = 1
+smoothness_factor = 50
 
 date_dict = {}
 
@@ -14,7 +14,7 @@ while current_date <= end_date:
     current_date += timedelta(days=1)
 
 lastdate = ""
-keyterm = "nya"
+keyterm = "lime"
 
 # Read the text file and process each line
 with open("PC Gang - General - pc-pics [689739087581544556].txt", "r", encoding="utf-8") as file:
